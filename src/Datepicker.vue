@@ -273,7 +273,8 @@ export default {
       }
 
       const currMonthFirstDay = new Date(time.year, time.month, 1)
-      let firstDayWeek = currMonthFirstDay.getDay() + 1
+//      let firstDayWeek = currMonthFirstDay.getDay() + 1
+      let firstDayWeek = currMonthFirstDay.getDay(); //vmartis fix start day from monday
       if (firstDayWeek === 0) {
         firstDayWeek = 7
       }
