@@ -15,6 +15,20 @@ en: {
   search: 'Search'
 },
 
+sk: {
+  daysOfWeek: ['Ne', 'Po', 'Ut', 'St', 'Št', 'Pi', 'So'],
+  limit: 'Bol dosiahnutý limit ({{limit}} pre maximálny počet položiek).',
+  loading: 'Načítavam...',
+  minLength: 'Min. dĺžka',
+  months: [
+    'Január', 'Február', 'Marec', 'Apríl', 'Máj', 'Jún',
+    'Júl', 'August', 'September', 'Október', 'November', 'December'
+  ],
+  notSelected: 'Nie je nič vybraté',
+  required: 'Povinné',
+  search: 'Vyhľadať'
+},
+
 es: {
   daysOfWeek: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa'],
   loading: 'Cargando...',
