@@ -12,7 +12,7 @@
         <slot name="modal-footer">
           <div class="modal-footer">
             <button type="button" class="btn btn-default" @click="action(false,3)">{{ cancelText }}</button>
-            <button type="button" class="btn btn-primary" @click="action(true,4)">{{ okText }}</button>
+            <button type="button" class="btn btn-primary" @click="action(true,4)" :disabled="protected()">{{ okText }}</button>
           </div>
         </slot>
       </div>
